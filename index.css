@@ -1,0 +1,58 @@
+
+section
+{
+    height: 100vh;
+    background-color: #F8FDFF !important;
+}
+.reduis
+{
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 20px 48px 0 rgba(0, 114, 150, 0.06);
+    background-color: #fff;
+    cursor: pointer;
+}
+.reduis img
+{
+    width: 50px;
+    height: 50px;
+}
+img[src='./assets/imgs/info-circle.svg']
+{
+    width: 30px;
+    height: 30px;
+}
+.reduis p
+{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+.reduis_border
+{
+    position: relative;
+    background: 
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(106deg, #ff6691 24%, #00c2ff 118%) border-box;
+    border: 2px solid transparent;
+}
+.reduis_border::before {
+    content: "\2713";
+    width: 25px;
+    height: 25px;
+    background-color: #ff6691 !important;
+    position: absolute;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -7px;
+    right: -7px;
+    border-radius: 50%;
+  }
